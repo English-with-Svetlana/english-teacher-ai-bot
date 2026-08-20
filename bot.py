@@ -62,7 +62,7 @@ async def answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
 
         ai_answer = response.choices[0].message.content
-        await update.message.reply_text(ai_answer)
+        await update.message.reply_text(ai_answer, parse_mode="Markdown")
 
     except Exception as e:
         print(e)
