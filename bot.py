@@ -39,7 +39,7 @@ You may explain grammar in Russian if the user writes in Russian.
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "👋 Hello! I'm English Teacher AI.\n\n"
+        "👋 Hello! I'm Svetlana, your AI English teacher.\n\n"
         "I can:\n"
         "✏️ check your English grammar\n"
         "💡 explain grammar rules\n"
